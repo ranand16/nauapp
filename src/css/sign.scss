@@ -1,0 +1,46 @@
+.sign{
+  &__in{
+    height: 300px;
+    width: 300px;
+    border-style: double;
+    border-radius: 50px;
+    border-width: thick;
+
+    text-align: center;
+    vertical-align: middle;
+
+    display: block;
+    margin: auto;
+    padding: 50px;
+  }
+  &__up{
+    width: 400px;
+    border-style: double;
+    border-radius: 50px;
+    border-width: thick;
+
+    text-align: center;
+    vertical-align: middle;
+
+    display: block;
+    margin: auto;
+    padding: 50px;
+  }
+}
+form>input{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+
+  border-radius: 15px;
+  padding: 5px;
+}
+form>p>button{
+  width: 60px;
+  margin-top: 60px;
+  border-radius: 15px;
+}
+div>span{
+  margin-bottom: 15px;
+}

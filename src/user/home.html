@@ -1,0 +1,31 @@
+<div class="container">
+  <h3>NauApp</h3>
+  <div class="row">
+    <a ui-sref="user" class="nav-link" ng-if="loggedIn()" ng-click="logout()">LogOut</a>
+    <a ui-sref="about" class="nav-link">About</a>
+    <div class="container">
+      <form class="form-control" ng-submit="sendMessage()">
+        <label for="">Message Box</label>
+        <input type="text" ng-model="content" value="">
+        <input type="text" ng-model="to" value="">
+        <button type="submit" name="button">Send Message</button>
+      </form>
+    </div>
+    <div class="">
+      <table class="table table-striped">
+        <tr>
+          <th>From</th>
+          <th>Content</th>
+        </tr>
+        <tr ng-repeat="msg in msgs">
+          <td>
+            <span>{{msg.from}}</span>
+          </td>
+          <td>
+            <span>{{msg.cntnt}}</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

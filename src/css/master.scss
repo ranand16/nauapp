@@ -1,0 +1,26 @@
+@import 'sign.scss';
+
+.nav-link{
+  float: right;
+  margin-top: 5px;
+  margin-left: 200px;
+}
+.head{
+  &__parent{
+    display: block;
+    width: auto;
+    height: 150px;
+    background: #FFF000;
+  }
+}
+.foot{
+  &__parent{
+    display: block;
+    width: auto;
+    height: 150px;
+    background: #FFF000;
+  }
+}
+.main{
+  margin-bottom: 50px;
+}
